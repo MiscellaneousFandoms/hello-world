@@ -1,3 +1,4 @@
 * {
   position: absolute;
+  image-rendering: crisp-edges;
 }
