@@ -3,7 +3,12 @@
   image-rendering: crisp-edges;
 }
 
+body {
+  background-color: #000;
+}
+
 #window {
   width: 512px;
   height: 448px;
+  background-color: #00f;
 }
