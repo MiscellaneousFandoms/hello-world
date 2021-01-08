@@ -7,11 +7,18 @@
   src: url('Alternianscript-Regular.ttf');
 }
 
-#altInput {
-  font-family: 'AlternianScript';
-  height: 100%;
+input {
+  height: 50%;
   width: 100%;
   font-size: 32px;
   vertical-align: top;
   text-align: left;
+}
+
+#engInput {
+  font-family: 'Arial';
+}
+
+#altInput {
+  font-family: 'AlternianScript';
 }
