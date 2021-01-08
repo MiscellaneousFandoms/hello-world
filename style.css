@@ -11,5 +11,6 @@ textarea {
   height: 100%;
   width: 100%;
   font-size: 32px;
+  line-height: 100%;
   text-transform: uppercase;
 }
