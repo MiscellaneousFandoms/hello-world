@@ -8,11 +8,9 @@
 }
 
 input {
-  height: 50%;
+  height: 32px;
   width: 100%;
   font-size: 32px;
-  vertical-align: top;
-  text-align: left;
 }
 
 #engInput {
