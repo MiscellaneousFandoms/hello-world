@@ -3,6 +3,6 @@
     src: url('Alternianscript-Regular.ttf');
 }
 
-p {
+#altInput {
   font-family: 'AlternianScript';
 }
