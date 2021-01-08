@@ -11,4 +11,7 @@
   font-family: 'AlternianScript';
   height: 100%;
   width: 100%;
+  font-size: 32px;
+  vertical-align: top;
+  text-align: left;
 }
