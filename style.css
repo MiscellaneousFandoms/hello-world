@@ -7,16 +7,9 @@
   src: url('Alternianscript-Regular.ttf');
 }
 textarea {
+  font-family: 'AlternianScript';
   height: 128px;
   width: 100%;
   font-size: 32px;
   text-transform: uppercase;
-}
-
-#engInput {
-  font-family: 'Arial';
-}
-
-#altInput {
-  font-family: 'AlternianScript';
 }
