@@ -7,7 +7,7 @@
   src: url('Alternianscript-Regular.ttf');
 }
 textarea {
-  rows: 4;
+  height: 128px;
   width: 100%;
   font-size: 32px;
 }
