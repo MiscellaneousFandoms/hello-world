@@ -1,16 +1,11 @@
 * {
   margin: 0px;
+  font-family: 'AlternianScript';
+  font-size: 32px;
+  line-height: 100%;
 }
 
 @font-face {
   font-family: 'AlternianScript';
   src: url('Alternianscript-Regular.ttf');
-}
-textarea {
-  font-family: 'AlternianScript';
-  height: 100%;
-  width: 100%;
-  font-size: 32px;
-  line-height: 100%;
-  text-transform: uppercase;
 }
