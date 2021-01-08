@@ -6,9 +6,8 @@
   font-family: 'AlternianScript';
   src: url('Alternianscript-Regular.ttf');
 }
-
-input {
-  height: 64px;
+textarea {
+  rows: 4;
   width: 100%;
   font-size: 32px;
 }
