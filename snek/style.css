@@ -1,15 +1,11 @@
+@font-face {
+  font-family: 'AlternianScript';
+  src: url('Alternianscript-Regular.ttf');
+}
+
 * {
   margin: 0px;
-  position: absolute;
-  image-rendering: crisp-edges;
-}
-
-body {
-  background-color: #777;
-}
-
-#window {
-  width: 640px;
-  height: 640px;
-  background-color: #070;
+  font-family: 'AlternianScript';
+  font-size: 32px;
+  line-height: 100%;
 }
