@@ -1,1 +1,8 @@
+@font-face {
+    font-family: 'AlternianScript';
+    src: url('Alternianscript-Regular.ttf');
+}
 
+p {
+  font-family: 'AlternianScript';
+}
