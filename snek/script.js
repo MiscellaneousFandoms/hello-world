@@ -36,7 +36,7 @@ var img = "https://azealot.github.io/snek/snek.png";
 // ctx.drawImage(img,sx,sy,swidth,sheight,x,y,width,height);
 
 var snek = [[0,0],[1,0]];
-var apple = [10,10]
+var apple = [10,10];
 
 var fps = 4;
 function animate() {
@@ -51,7 +51,7 @@ setTimeout(function() {
   if (snek[2*snek.length-1] != apple) {
     snek.shift();
   }
-  
+  ctx.drawImage(img,16,0,8,8,8,8,8,8);
   for (i = 0; i < snek.length; i++) {
     ctx.drawImage(img,16,0,8,8,8*snek[snek.length+i][0],8*snek[snek.length+i][1],8,8);
   }
