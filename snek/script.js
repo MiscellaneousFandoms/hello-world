@@ -1,6 +1,8 @@
 var i = 0;
+var x = 0;
+var y = 0;
 
-var keys = []
+var keys = [];
 document.addEventListener('keydown', function (event) {
   if (event.key === 'w') {
     keys[0] = 1;
@@ -15,7 +17,7 @@ document.addEventListener('keydown', function (event) {
     keys[3] = 1;
   }
 });
-document.addEventListener('keydown', function (event) {
+document.addEventListener('keyup', function (event) {
   if (event.key === 'w') {
     keys[0] = 0;
   }
@@ -37,6 +39,8 @@ var img = "https://azealot.github.io/snek/snek.png";
 
 var snek = [[0,0],[1,0]];
 var apple = [10,10];
+
+ctx.drawImage(img,16,0,8,8,8,8,8,8);
 
 var fps = 4;
 function animate() {
