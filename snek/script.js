@@ -32,7 +32,7 @@ document.addEventListener('keydown', function (event) {
 
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
-var img = https://azealot.github.io/snek/snek.png;
+var img = "https://azealot.github.io/snek/snek.png;"
 // ctx.drawImage(img,sx,sy,swidth,sheight,x,y,width,height);
 
 var snek = [[0,0],[1,0]];
