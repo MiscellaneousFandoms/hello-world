@@ -2,8 +2,8 @@ var i = 0;
 var x = 0;
 var y = 0;
 
-var canvas = document.getElementById("canvas");
-var ctx = canvas.getContext("2d");
+var gameWindow = document.getElementById("gameWindow");
+var ctx = gameWindow.getContext("2d");
 var snekTiles = new Image();
 snekTiles = "https://azealot.github.io/snek/snek.png";
 
