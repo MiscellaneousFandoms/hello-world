@@ -48,7 +48,7 @@ setTimeout(function() {
     let y = keys[0]-keys[2];
     snek.push([x,y]);
   } else {
-    let x = [keys[3]-keys[1];
+    let x = keys[3]-keys[1];
     let y = 2*snek[snek.length-1][1]-[snek.length-2][1]
     snek.push([x,y]);
   }
