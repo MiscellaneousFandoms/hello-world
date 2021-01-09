@@ -2,6 +2,14 @@ var i = 0;
 var x = 0;
 var y = 0;
 
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var snekTiles = new Image();
+snekTiles = "https://azealot.github.io/snek/snek.png";
+
+var snek = [[0,0],[1,0]];
+var apple = [10,10];
+
 var keys = [];
 document.addEventListener('keydown', function (event) {
   if (event.key === 'w') {
@@ -31,14 +39,6 @@ document.addEventListener('keyup', function (event) {
     keys[3] = 0;
   }
 });
-
-var canvas = document.getElementById("canvas");
-var ctx = canvas.getContext("2d");
-var snekTiles = new Image();
-snekTiles.src = "https://azealot.github.io/snek/snek.png";
-
-var snek = [[0,0],[1,0]];
-var apple = [10,10];
 
 ctx.drawImage(snekTiles,8,8);
 
