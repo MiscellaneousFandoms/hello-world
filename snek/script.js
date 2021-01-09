@@ -34,12 +34,13 @@ document.addEventListener('keyup', function (event) {
 
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
-var img.src = "https://azealot.github.io/snek/snek.png";
+var snekTiles = new Image();
+snekTiles.src = "https://azealot.github.io/snek/snek.png";
 
 var snek = [[0,0],[1,0]];
 var apple = [10,10];
 
-ctx.drawImage(img,8,8);
+ctx.drawImage(snekTiles,8,8);
 
 var fps = 4;
 function animate() {
@@ -62,7 +63,7 @@ setTimeout(function() {
   for (i = 0; i < snek.length; i++) {
     let x = 8*snek[snek.length+i][0];
     let y = 8*snek[snek.length+i][1];
-    ctx.drawImage(img,16,0,8,8,x,y,8,8);
+    ctx.drawImage(snekTiles,16,0,8,8,x,y,8,8);
   }
 }, 1000 / framesPerSecond);
 }
