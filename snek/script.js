@@ -40,7 +40,7 @@ var img = "https://azealot.github.io/snek/snek.png";
 var snek = [[0,0],[1,0]];
 var apple = [10,10];
 
-ctx.drawImage(img,16,0,8,8,8,8,8,8);
+ctx.drawImage(img,8,8);
 
 var fps = 4;
 function animate() {
