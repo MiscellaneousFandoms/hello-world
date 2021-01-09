@@ -44,16 +44,22 @@ setTimeout(function() {
   requestAnimationFrame(animate);
   
   if (snek[snek.length-2][0] != snek[snek.length-1][0]) {
-    snek.push([2*snek[snek.length-1][0]-[snek.length-2][0],keys[0]-keys[2]]);
+    let x = 2*snek[snek.length-1][0]-[snek.length-2][0];
+    let y = keys[0]-keys[2];
+    snek.push([x,y]);
   } else {
-    snek.push([keys[3]-keys[1],2*snek[snek.length-1][1]-[snek.length-2][1]]);
+    let x = [keys[3]-keys[1];
+    let y = 2*snek[snek.length-1][1]-[snek.length-2][1]
+    snek.push([x,y]);
   }
   if (snek[2*snek.length-1] != apple) {
     snek.shift();
   }
-  ctx.drawImage(img,16,0,8,8,8,8,8,8);
+  
   for (i = 0; i < snek.length; i++) {
-    ctx.drawImage(img,16,0,8,8,8*snek[snek.length+i][0],8*snek[snek.length+i][1],8,8);
+    let x = 8*snek[snek.length+i][0];
+    let y = 8*snek[snek.length+i][1];
+    ctx.drawImage(img,16,0,8,8,x,y,8,8);
   }
 }, 1000 / framesPerSecond);
 }
