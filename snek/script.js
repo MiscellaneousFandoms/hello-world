@@ -40,6 +40,7 @@ document.addEventListener('keyup', function (event) {
   }
 });
 
+ctx.fillRect(100, 100, 100, 100);
 ctx.drawImage(snekTiles,8,8);
 
 var fps = 4;
