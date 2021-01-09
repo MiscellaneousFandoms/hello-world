@@ -5,7 +5,7 @@ var y = 0;
 var gameWindow = document.getElementById("gameWindow");
 var ctx = gameWindow.getContext("2d");
 var snekTiles = new Image();
-snekTiles.src = "/snek.png";
+snekTiles.src = "/snek/snek.png";
 
 var snek = [[0,0],[1,0]];
 var apple = [10,10];
