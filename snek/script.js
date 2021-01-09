@@ -1,7 +1,7 @@
 var i = 0;
 
 var keys = []
-document.addEventListener('keydown', keydown (event)) {
+document.addEventListener('keydown', function (event) {
   if (event.key === 'w') {
     keys[0] = 1;
   }
@@ -15,7 +15,7 @@ document.addEventListener('keydown', keydown (event)) {
     keys[3] = 1;
   }
 });
-document.addEventListener('keydown', keyup (event)) {
+document.addEventListener('keydown', function (event) {
   if (event.key === 'w') {
     keys[0] = 0;
   }
