@@ -16,6 +16,6 @@ body {
 
 #gameWindow {
   background-color: #444;
-  width: 256px;
-  height: 256px;
+  width: 256;
+  height: 256;
 }
