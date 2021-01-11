@@ -1,3 +1,5 @@
+await sleep(100);
+
 var gameWindow = document.getElementById("gameWindow");
 var ctx = gameWindow.getContext("2d");
 
@@ -6,6 +8,4 @@ snekTiles.src = "https://azealot.github.io/snek/snek.png";
 
 //
 
-function myFunction() {
-  ctx.drawImage(snekTiles,16,16);
-}
+ctx.drawImage(snekTiles,16,16);
