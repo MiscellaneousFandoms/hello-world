@@ -6,6 +6,7 @@ snekTiles.src = "https://azealot.github.io/snek/snek.png";
 
 //
 
-while (1) {
+var i;
+for (i = 0; i < 100; i++) {
   ctx.drawImage(snekTiles,16,16);
-}
+} 
