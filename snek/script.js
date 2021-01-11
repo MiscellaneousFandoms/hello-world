@@ -1,4 +1,4 @@
-await sleep(100);
+await sleep(1000);
 
 var gameWindow = document.getElementById("gameWindow");
 var ctx = gameWindow.getContext("2d");
