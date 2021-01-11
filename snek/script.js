@@ -6,10 +6,6 @@ snekTiles.src = "https://azealot.github.io/snek/snek.png";
 
 //
 
-var fps = 4;
-function animate() {
-setTimeout(function() {
-  requestAnimationFrame(animate);
+while (1) {
   ctx.drawImage(snekTiles,16,16);
-}, 1000 / framesPerSecond);
 }
