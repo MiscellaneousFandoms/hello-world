@@ -1,0 +1,13 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #777;
+  overflow: hidden;
+}
+
+#out {
+  background-color: #000;
+  image-rendering: pixelated;
+}
