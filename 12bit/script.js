@@ -5,9 +5,9 @@ document.getElementById("in").onload = function() {
   ctx.drawImage(img, 0, 0);
   var imgData = ctx.getImageData(0, 0, img.width, img.height);
   // invert colors
-  var g = 255/15;
+  var palette = 255/15;
   for (i=0; i<imgData.data.length; i+=1) {
-    imgData.data[i] = Math.round(imgData.data[i]/g)*g;
+    imgData.data[i] = Math.round(imgData.data[i]/palette)*palette;
   }
   ctx.putImageData(imgData, 0, 0);
 };
