@@ -6,11 +6,8 @@ document.getElementById("in").onload = function() {
   var imgData = ctx.getImageData(0, 0, img.width, img.height);
   // invert colors
   var g = 255/15;
-  for (i=0; i<imgData.data.length; i+=4) {
+  for (i=0; i<imgData.data.length; i+=1) {
     imgData.data[i] = Math.round(imgData.data[i]/g)*g;
-    imgData.data[i+1] = Math.round(imgData.data[i+1]/g)*g;
-    imgData.data[i+2] = Math.round(imgData.data[i+2]/g)*g;
-    imgData.data[i+3] = Math.round(imgData.data[i+3]/g)*g;
   }
   ctx.putImageData(imgData, 0, 0);
 };
