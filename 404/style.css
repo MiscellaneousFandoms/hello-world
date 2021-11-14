@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+  font-family: 'cour10';
+  font-size: 8px;
+  border: 0px none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: 'cour10';
+  src: url('/font/courierNew/10/cour.ttf');
+}
+@font-face {
+  font-family: 'cour10';
+  src: url('/font/courierNew/10/courb.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'cour10';
+  src: url('/font/courierNew/10/couri.ttf');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'cour10';
+  src: url('/font/courierNew/10/courbi.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+u, a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-skip-ink: none;
+}
+
+body {
+  transform: scale(2);
+  transform-origin: 0 0;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  overflow: hidden;
+}
+
+p {
+  color: #fff;
+}
+
+a:link {
+  color: #88f;
+}
+a:visited {
+  color: #a8b;
+}
+a:hover, a:active {
+  color: #f88;
+}
+
+p img {
+  margin-top: -1px;
+  margin-bottom: -4px;
+}
+
+#nav {
+  width: 100%;
+  height: 24px;
+  background-size: 1px 24px;
+  background-image: url("img/bar.png");
+  z-index: 1;
+  position:relative;
+  top: 0px;
+  margin-bottom: -4px;
+}
+#nav>p {
+  padding-top: 2px;
+  padding-left: 8px;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+  flex: 1 1;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-image: url("img/wallpaper.png");
+  background-size: 97px 89px;
+}
+
+#paper {
+  width: 384px;
+  height: auto;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000;
+  border: 2px solid #fff;
+}
+#paper>textarea {
+  padding: 4px;
+  width: 100%;
+  height: 24px;
+  resize: none;
+  overflow: hidden;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+}
