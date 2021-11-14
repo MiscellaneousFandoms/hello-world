@@ -3,14 +3,21 @@
   <meta charset="utf-8">
   <link rel="shortcut icon" type="image/png" href="/img/favicon.png"/>
   <title>404</title>
-  <style>
-    * {
-      margin: 0px;
-      padding: 0px;
-    }
-  </style>
+  <link rel="stylesheet" href="/404/style.css">
 </head>
 <body>
-  <iframe src="/404/" height="100%" width="100%" frameBorder="0"></iframe>
+  <div id="nav">
+    <p>
+      <a href="/" id="a">Home</a> |
+      <a href="/other">Other stuff</a> |
+      <a href="/about">About</a>
+    </p>
+  </div>
+  <div id="content">
+    <div id="paper">
+      <textarea id="text" oninput="resize(this)">404, page not found...</textarea>
+    </div>
+  </div>
+  <script src="/404/script.js"></script>
 </body>
 </html>
