@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
+
+#game {
+  margin: auto;
+  background-color: #444;
+
+}
