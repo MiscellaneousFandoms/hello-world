@@ -62,3 +62,17 @@ p img {
 .pale {
   color: #777;
 }
+
+.door {
+  position: fixed;
+  width: 32px;
+  height: 64px;
+}
+.door.home {
+  left: 8px;
+  bottom: 0px;
+  background-image: url("/img/door/idle.png");
+}
+.door.home:hover, .door.home:active {
+  background-image: url("/img/door/hover.png");
+}
