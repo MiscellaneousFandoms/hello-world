@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  overflow: hidden;
+}
+
+a:link {
+  color: #00e;
+}
+a:visited {
+  ccolor: #528;
+}
+a:hover, a:active {
+  color: #e00;
+}
+
+#nav {
+  z-index: 1;
+  width: 100%;
+  height: 24px;
+  background-image: url("/img/nav.png");
+  margin-bottom: -4px;
+}
+#nav>p {
+  padding-top: 2px;
+  padding-left: 8px;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+  flex: 1 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-image: url("/img/bg.png");
+}
+
+#paper {
+  width: 384px;
+  background-color: #fff;
+  margin-top: 32px;
+  margin-bottom: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#paper>p {
+  padding: 4px;
+}
+
+.door {
+  display: block;
+  width: 32px;
+  height: 64px;
+}
+.door.crt {
+  margin-left: 8px;
+  content: url("/crt/img/door/idle.png") url("/crt/img/door/hover.png");
+  background-image: url("/crt/img/door/idle.png");
+}
+.door.crt:hover, .door.crt:active {
+  background-image: url("/crt/img/door/hover.png");
+}

@@ -1,0 +1,33 @@
+* {
+  font-family: 'cour10';
+  font-size: 8px;
+}
+@font-face {
+  font-family: 'cour10';
+  src: url('/font/courierNew/10/cour.ttf');
+}
+@font-face {
+  font-family: 'cour10';
+  src: url('/font/courierNew/10/courb.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'cour10';
+  src: url('/font/courierNew/10/couri.ttf');
+  font-style: italic;
+}
+@font-face {
+  font-family: 'cour10';
+  src: url('/font/courierNew/10/courbi.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+u, a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-skip-ink: none;
+}
+p img {
+  margin-top: -1px;
+  margin-bottom: -4px;
+}
